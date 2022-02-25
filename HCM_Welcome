@@ -1,5 +1,11 @@
-#include <stdio.h>
-int main() {
-   printf("Hello, World!");
-   return 0;
+package main
+
+import "fmt"
+
+func helloworld() string {
+	return "Hello World!!"
+}
+
+func main() {
+	fmt.Println(helloworld())
 }
